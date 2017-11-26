@@ -1,7 +1,6 @@
 import tensorflow as tf
 import numpy as np
 from sklearn.datasets import load_digits
-import printRes
 
 digits = load_digits()
 x_data = digits.data.astype(np.float32)
